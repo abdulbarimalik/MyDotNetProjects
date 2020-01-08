@@ -1,0 +1,52 @@
+
+1.	Introduction
+1.1	Abstract:
+eCMS – Easy Conference Management System is a comprehensive, richly featured and fully mature online conference management system. It handles abstract submission, the review process and the selection of papers.
+	Easy Conference Management System is a conference management system that is flexible, easy to use, and has many features to make it suitable for various conference models. It has currently probably the most commonly used conference management system. It includes Author registration, submitting the paper, Reviewer selection, paper review and submitting.
+1.2	 Project Title:                             
+Easy Conference Management System
+1.3	Definitions, Acronyms, and Abbreviations
+                eCMS: Easy Conference Management System
+1.4	Scope of the Project
+		eCMS is a web application that will support every aspect of the conference 	organization process. This includes paper submission, reviewer assignments, registration 	handling of the conference participants, searching, downloading papers etc.
+1.5	Advantages:
+	Complete web based solution.
+	Supports the full life cycle of conference management.
+	It is a scalable system. 		
+	Has a clearly arranged and user-friendly interface.
+	No installation, you only need internet access and web browser.
+2.	Existing System
+Conference is a meeting for researchers to present, discuss, identify important problems and formulate future research direction on specific themes. It is not easy to create a large event like a conference. Jobs like collecting paper submission from authors, assigning paper submitted to the reviewers, notifying authors about whether the paper submitted is rejected or accepted surely cause much stress and headaches if done manually. Unfortunately, there can be no effective solution to the planning of such events with manual methods. On the other hand, the need of systems for collaboration support has expanded, leading to their growing application in organizational, communication, and cooperation processes.
+3.	Proposed System
+	There is a need for applications for conference organization to support or manage the workloads. These kinds of applications are called conference management systems.
+The proposed system helps the program chair(s), the authors and the reviewers in their respective activities. A conference management system can be regarded as a domain-specific content management system. Conference management system provide all the basic functionalities needed to manage the processes of paper submission, assignment of reviewers to papers, review submission and etc.
+3.1	Advantages of proposed system:
+		Among the advantages of such systems, we can mention smoother registration 	procedure, easy submission, search, review and evaluation of papers. First of all, 	registration is easier because names can be 	entered into a database. It will eliminate the 	need for endless keying of repetitive 	information. Second, one can upload a file into the 	database, where it can be later reviewed, evaluated or removed.
+4.	Main Modules of the System:
+Following are the modules are used in Conference Management System.
+4.1	Author Module: 
+Any registered eCMS user who has submitted the conference paper is automatically assigned the role of ‘Author’. Authors can submit, edit and withdraw their paper,
+4.2	Reviewer Module: 
+Reviewer review the paper and update status for submitted paper, Reviewer can view all paper assigned by chair of review.
+4.3	Chair Module:
+The Conference Chair configures the system, assign roles to users, assigns tasks to reviewers and editors, accepts/rejects paper, exports data, etc. Chair is the system administrator for this Easy Conference System.  
+5.	Product Features:
+	Typical functions and work-flows supported by conference management systems include:
+	Receiving paper submissions
+	Assigning referees to papers
+	Collecting reviews
+	Collecting final accepted versions
+
+6.	Software Requirements:
+	ASP.Net, C#.
+	Visual Studio 2005 / 2008 / 2010 / 2012.
+	SQL Server 2005 / 2008
+7.	Hardware Requirements:
+	Processor: Preferably 3.0 GHz or Greater.
+8.	RAM:  
+	1 GB or Greater.
+9.	Limitations:
+		This project was developed to fulfill the user requirements; however there are lots  	of scope to improve the performance of the Easy Conference Management 			System in  the area of user interface, database performance, query processing time.Etc.
+
+
+

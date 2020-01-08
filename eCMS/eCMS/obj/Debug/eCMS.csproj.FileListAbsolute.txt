@@ -1,0 +1,10 @@
+C:\Users\Chandu\Documents\Visual Studio 2010\Projects\eCMS\eCMS\bin\eCMS.dll
+C:\Users\Chandu\Documents\Visual Studio 2010\Projects\eCMS\eCMS\bin\eCMS.pdb
+C:\Users\Chandu\Documents\Visual Studio 2010\Projects\eCMS\eCMS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chandu\Documents\Visual Studio 2010\Projects\eCMS\eCMS\obj\Debug\eCMS.dll
+C:\Users\Chandu\Documents\Visual Studio 2010\Projects\eCMS\eCMS\obj\Debug\eCMS.pdb
+C:\Users\Chandu\Desktop\eCMS\eCMS\bin\eCMS.dll
+C:\Users\Chandu\Desktop\eCMS\eCMS\bin\eCMS.pdb
+C:\Users\Chandu\Desktop\eCMS\eCMS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chandu\Desktop\eCMS\eCMS\obj\Debug\eCMS.dll
+C:\Users\Chandu\Desktop\eCMS\eCMS\obj\Debug\eCMS.pdb

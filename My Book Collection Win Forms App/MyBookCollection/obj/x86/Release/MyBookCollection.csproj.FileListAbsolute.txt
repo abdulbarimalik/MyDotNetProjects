@@ -1,0 +1,111 @@
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\bin\Release\MyBookCollection.exe
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\bin\Release\MyBookCollection.pdb
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.AuthorForm.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Authors.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Books.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.DeleteTopic.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Delete_Author.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Delete_Books.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Delete_Quote.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.EnterBooks.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.MainMenuForm.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ManageQuotations.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.OtherInformation.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Properties.Resources.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Quotations.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.UpdateQuotations.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.UpdateTopic.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ViewQuotations.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ViewTopic.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Topics.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.TopicsMenu.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Update_Author.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Update_Books.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ViewBookDB.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.View_Author_Database.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.exe
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.pdb
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\bin\Release\MyBookCollection.exe.config
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.QuoteByAuthor.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\RdlCompile.cache
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\RdlCompile.compiled
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ReportTittlesByAuthor.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.PreviewReports.resources
+C:\Users\malik\documents\visual studio 2010\Projects\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ReportTitlesByTopic.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\bin\Release\MyBookCollection.exe.config
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.exe
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.pdb
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\bin\Release\MyBookCollection.exe
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\bin\Release\MyBookCollection.pdb
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.AuthorForm.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Authors.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Books.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.DeleteTopic.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Delete_Author.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Delete_Books.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Delete_Quote.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.EnterBooks.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.MainMenuForm.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ManageQuotations.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.OtherInformation.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.PreviewReports.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Properties.Resources.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Quotations.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.QuoteByAuthor.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ReportTitlesByTopic.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ReportTittlesByAuthor.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.UpdateQuotations.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.UpdateTopic.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ViewQuotations.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ViewTopic.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Topics.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.TopicsMenu.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Update_Author.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Update_Books.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ViewBookDB.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.View_Author_Database.resources
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\RdlCompile.cache
+C:\Semester 7\Courses\SDT\Semester Projects\Project Final Vesion\ProjectdotNet\MyBookCollection\obj\x86\Release\RdlCompile.compiled
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\bin\Release\MyBookCollection.exe.config
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.exe
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.pdb
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\bin\Release\MyBookCollection.exe
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\bin\Release\MyBookCollection.pdb
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.AuthorForm.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Authors.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Books.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.DeleteTopic.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Delete_Author.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Delete_Books.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Delete_Quote.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.EnterBooks.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.MainMenuForm.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ManageQuotations.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.OtherInformation.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.PreviewReports.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Properties.Resources.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Quotations.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.QuoteByAuthor.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ReportTitlesByTopic.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ReportTittlesByAuthor.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.UpdateQuotations.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.UpdateTopic.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ViewQuotations.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ViewTopic.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Topics.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.TopicsMenu.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Update_Author.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.Update_Books.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.ViewBookDB.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\MyBookCollection.View_Author_Database.resources
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\RdlCompile.cache
+C:\Users\malik\Desktop\ProjectdotNet\MyBookCollection\obj\x86\Release\RdlCompile.compiled

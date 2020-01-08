@@ -1,0 +1,353 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebsiteProjectBook.MasterPages.Site1" %>
+<%@ Register TagPrefix="uc1" TagName="News" Src="~/UserControl/ucNews.ascx" %>
+<%@ Register TagPrefix="uc1" TagName="Flag" Src="~/UserControl/ucFlag.ascx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>My Book Collection, HTML, CSS</title>
+<meta name="keywords" content="Wooden Blog Template, HTML, CSS" />
+<meta name="description" content="Wooden Blog Template, HTML CSS layout available for free of charge" />
+<link href="../templatemo_style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../jquerycssmenu.css" />
+<!--<script language="javascript" src="../js/templatemo_image_fader.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+    function clearText(field) {
+        if (field.defaultValue == field.value) field.value = '';
+        else if (field.value == '') field.value = field.defaultValue;
+    }
+</script>-->
+<!--[if lte IE 7]>
+<style type="text/css">
+html .jquerycssmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+</style>
+<![endif]-->
+
+<script type="text/javascript" src="../js/jquery.min.1.2.6.js"></script>
+<script type="text/javascript" src="../js/jquerycssmenu.js"></script>
+<script type="text/javascript" src="../js/jquery.min.1.3.2.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var currentPosition = 0;
+        var slideWidth = 750;
+        var slides = $('.slide');
+        var numberOfSlides = slides.length;
+
+        // Remove scrollbar in JS
+        $('#slidesContainer').css('overflow', 'hidden');
+
+        // Wrap all .slides with #slideInner div
+        slides
+    .wrapAll('<div id="slideInner"></div>')
+        // Float left to display horizontally, readjust .slides width
+	.css({
+	    'float': 'left',
+	    'width': slideWidth
+	});
+
+        // Set #slideInner width equal to total width of all slides
+        $('#slideInner').css('width', slideWidth * numberOfSlides);
+
+        // Insert controls in the DOM
+        $('#slideshow')
+    .prepend('<span class="control" id="leftControl">Clicking moves left</span>')
+    .append('<span class="control" id="rightControl">Clicking moves right</span>');
+
+        // Hide left arrow control on first load
+        manageControls(currentPosition);
+
+        // Create event listeners for .controls clicks
+        $('.control')
+    .bind('click', function () {
+        // Determine new position
+        currentPosition = ($(this).attr('id') == 'rightControl') ? currentPosition + 1 : currentPosition - 1;
+
+        // Hide / show controls
+        manageControls(currentPosition);
+        // Move slideInner using margin-left
+        $('#slideInner').animate({
+            'marginLeft': slideWidth * (-currentPosition)
+        });
+    });
+
+        // manageControls: Hides and Shows controls depending on currentPosition
+        function manageControls(position) {
+            // Hide left arrow if position is first slide
+            if (position == 0) { $('#leftControl').hide() } else { $('#leftControl').show() }
+            // Hide right arrow if position is last slide
+            if (position == numberOfSlides - 1) { $('#rightControl').hide() } else { $('#rightControl').show() }
+        }
+    });
+    
+    
+</script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="templatemo_top_panel_wrapper_outter">
+<div id="templatemo_top_panel_wrapper_inner">
+	<div id="templatemo_top_panel">
+    	<div id="templatemo_menu">
+
+<div id="myjquerymenu" class="jquerycssmenu">
+<ul>
+<li><a href="../SimplePages/Default.aspx">Home</a></li>
+<li><a href="#">Manage Authors</a>
+  <ul>
+     <li><a href="../SimplePages/EnterAuthors.aspx">Add Authors</a></li>
+     <li><a href="../SimplePages/ViewAuthor.aspx">View Authors</a></li>
+     <li><a href="../SimplePages/UpdateAuthor.aspx">Edit Authors</a></li>
+     <li><a href="../SimplePages/DeleteAuthors.aspx">Delete Authors</a></li>
+   </ul>
+</li>
+<li><a href="#">Manage Books</a>
+    <ul>
+     <li><a href="../SimplePages/EnterBooks.aspx">Add Books</a></li>
+     <li><a href="../SimplePages/ViewBooks.aspx">View Books</a></li>
+     <li><a href="../SimplePages/UpdateBooks.aspx">Edit Books</a></li>
+     <li><a href="../SimplePages/DeleteBooks.aspx">Delete Books</a></li>
+   </ul>
+ </li>
+  <li><a href="#">Manage Quotations</a>
+    <ul>
+    <li><a href="../SimplePages/EnterQuotations.aspx">Add Quotatons</a></li>
+    <li><a href="../SimplePages/View Quotations.aspx">View Quotations</a></li>
+    <li><a href="../SimplePages/UpdateQuotation.aspx">Edit Quotations</a></li>
+    <li><a href="../SimplePages/DeleteQuotations.aspx">Delete Quotations</a></li>
+   </ul>
+  </li>
+  <li><a href="#">Manage Topics</a>
+    <ul>
+    <li><a href="../SimplePages/EnterTopics.aspx">Add Topics</a></li>
+    <li><a href="../SimplePages/ViewTopics.aspx">View Topics</a></li>
+    <li><a href="../SimplePages/UpdateTopic.aspx">Edit Topics</a></li>
+    <li><a href="../SimplePages/DeleteTopic.aspx">Delete Topics</a></li>
+   </ul>
+  </li>
+  <li><a href="#">Manage Reports</a>
+    <ul>
+    <li><a href="../SimplePages/ReportQuoteByAuthors.aspx">Report Quote By Authors</a></li>
+    <li><a href="../SimplePages/ReportTitleByAuthors.aspx">Report Title By Authors</a></li>
+    <li><a href="../SimplePages/ReportTitleByTopics.aspx">Report Title By Topics</a></li>
+     <li><a href="../SimplePages/ViewAllUsers.aspx">Report All Registered Users</a></li>
+   </ul>
+  </li>
+<!--<li><a href="#">Support</a>
+  <ul>
+  <li><a href="#">Sub Item 2.1</a></li>
+  <li><a href="#">Folder 2.1</a>
+    <ul>
+    <li><a href="#">Sub Item 2.1.1</a></li>
+    <li><a href="#">Sub Item 2.1.2</a></li>
+    <li><a href="#">Folder 3.1.1</a>
+		<ul>
+    		<li><a href="#">Sub Item 3.1.1.1</a></li>
+    		<li><a href="#">Sub Item 3.1.1.2</a></li>
+    		<li><a href="#">Sub Item 3.1.1.3</a></li>
+    		<li><a href="#">Sub Item 3.1.1.4</a></li>
+    		<li><a href="#">Sub Item 3.1.1.5</a></li>
+		</ul>
+    </li>
+   </ul>
+ </li>
+ </ul>
+</li>-->
+<!--<li><a href="#" class="margin_l10">About Us</a></li>-->
+<li><a href="../SimplePages/MyProfile.aspx" class="margin_l10">Contact</a></li>
+<li><a href="#" class="margin_l10">
+        <asp:Label ID="UserInfo" runat="server" Text="Guest" ForeColor="White"></asp:Label>
+    </a></li>
+<li><asp:HyperLink ID="LogIn" runat="server" 
+        NavigateUrl="~/SimplePages/Login.aspx">Log In</asp:HyperLink></li>
+<li><asp:HyperLink ID="LogOut" runat="server" 
+        NavigateUrl="~/SimplePages/LogOut.aspx" Width="54px">LogOut</asp:HyperLink></li>
+<li><asp:HyperLink ID="SignUp" runat="server" 
+        NavigateUrl="~/SimplePages/SignUp.aspx">Sign Up</asp:HyperLink></li>
+</ul>
+<br style="clear: left" />
+</div>
+
+        </div>
+        
+        <div id="templatemo_banner">
+        
+	        <div id="site_title">
+                <h1><a href="http://www.templatemo.com" target="_parent">
+                <!--
+                Colorful Blog
+                <span>your tagline goes here</span>
+                -->
+                <img src="../images/templatemo_logo.png" alt="site logo" />
+                <span>free website layout for blog themes</span>
+                
+                </a></h1>
+			</div>
+            
+        </div> <!-- end of templatemo_banner -->
+    
+    </div> <!-- end of templatemo_top_panel -->
+    
+</div> <!-- end of templatemo_top_panel_wrapper_inner -->
+</div> <!-- end of  templatemo_top_panel_wrapper_outter -->
+
+<div id="templatemo_content_wrapper">
+
+	<div id="templatemo_content">
+    
+    <div id="templatemo_popular_posts">
+        
+       <!--<div id="templatemo_image_fader">
+        	 <script type="text/javascript">
+        	     //new fadeshow(IMAGES_ARRAY_NAME, slideshow_width, slideshow_height, borderwidth, delay, pause (0=no, 1=yes), optionalRandomOrder)
+        	     new fadeshow(fadeimages, 960, 240, 1, 2000, 1, "R")
+ 
+			</script>
+        </div>-->
+       <div id="slideshow">
+          <div id="slidesContainer">
+            <div class="slide"> <a href="http://www.templatemo.com/preview/templatemo_104_hotel" target="_blank"> <img src="../images/templatemo_image_03.jpg" alt="Hotel Template" width="380" height="190" />
+              <h2>Hotel Template</h2>
+              <p>Vivamus vitae nibh eu sem malesuada rutrum et sit amet magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent aliquam velit a magna sodales quis elementum ipsum auctor. Ut at metus leo, et dictum sem.</p>
+            </a> </div>
+            <div class="slide"> <a href="http://www.templatemo.com/preview/templatemo_118_block_3d" target="_blank"> <img src="../images/templatemo_image_04.jpg" alt="Block 3D" width="380" height="190" />
+              <h2>Block 3D Template</h2>
+              <p>Aenean fringilla vehicula felis, eu blandit tortor aliquam et. Nunc sed diam sed dui iaculis pharetra eu sed elit. Nunc arcu sapien, pellentesque at posuere nec, tincidunt dignissim enim. Ut sem mauris, aliquet ut sagittis vitae, condimentum eget augue. Donec sapien neque, egestas vitae auctor quis, pellentesque at augue.</p>
+            </a> </div>
+            <div class="slide"> <a href="http://www.templatemo.com/preview/templatemo_135_art_gallery" target="_blank"> <img src="../images/templatemo_image_05.jpg" alt="Art Gallery" width="380" height="190" />
+              <h2>Art Gallery Template</h2>
+              <p>Praesent at dui augue. Proin consectetur elementum sem, in blandit urna porta sed. Sed tortor ipsum, scelerisque vel lobortis aliquam, bibendum sit amet neque. In id erat in quam bibendum lacinia. Curabitur imperdiet viverra scelerisque. Phasellus quis egestas risus.</p>
+            </a> </div>
+            <div class="slide"> <a href="http://www.templatemo.com/preview/templatemo_126_bird_store" target="_blank"> <img src="../images/templatemo_image_06.jpg" alt="Bird Store" width="380" height="190" />
+              <h2>Bird Store Template</h2>
+              <p>Sed id tortor vitae nisi consectetur tempus. Pellentesque tellus est, adipiscing id porttitor vitae, vestibulum id neque. Aliquam tellus dui, vehicula sed placerat sed, scelerisque ultricies tortor. Donec ornare blandit erat pellentesque molestie. Suspendisse potenti. </p>
+            </a> </div>
+          </div>
+        </div> <!-- end of slide show -->
+    
+   	  </div> <!-- end of templatemo_popular_posts -->
+      
+      <div id="templatemo_main_content_top"></div>
+      <div id="templatemo_main_coontent">
+       <div id="main_column">
+      
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+		 </div> <!-- end of main column -->
+        
+	    <div id="side_column">
+
+			<div class="side_column_section">
+            
+			<a href="http://www.templatemo.com" target="_parent"><img src="../images/Animated-Flag-Pakistan.gif" alt="ads" width="250" height="250"/></a>	
+           <!-- <uc1:Flag ID="Flag1" runat="server"></uc1:Flag>-->
+                		</div>
+
+<div class="side_column_section">
+            
+                <h3>Useful Links</h3>
+                <ul class="side_menu">
+                    <li><a href="http://www.iiu.edu.pk">International Islamic University</a></li>
+                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                    <li><a href="http://vle.iiu.edu.pk">IIU Virtual Learning Environment</a></li>
+                    <li><a href="http://www.asp.net/">ASP.Net Official Website</a></li>
+                    <li><a href="http://www.espncricinfo.com/">Cricinfo</a></li>
+                             
+                </ul>
+            
+            </div>
+
+            
+            <div class="side_column_section">
+            <h3>Recent News</h3>
+            <div class="recent_post">
+            <uc1:News runat="server"></uc1:News>
+              </div>
+            </div>
+            
+        </div> <!-- end of side column -->
+        <div class="cleaner"></div> 
+      </div> <!-- end of main content -->
+      <div id="templatemo_main_content_bottom"></div>
+    
+    </div> <!-- templatemo_content -->
+
+</div> <!-- end of templatemo_content_wrapper -->
+
+<div id="templatemo_footer_wrapper">
+
+    	<div id="templatemo_footer">
+        
+        	
+      <div class="section_w200">
+            
+            	<h4>About this blog</h4>
+                
+                <p>Nunc arcu sapien, pellentesque at posuere nec, tincidunt dignissim enim. Ut sem mauris, aliquet ut sagittis vitae, condimentum eget augue. Donec sapien neque, egestas vitae auctor quis, pellentesque at augue.                </p>
+                
+          </div>
+            
+            <div class="section_w200">
+            
+            	<h4>Markup Validations</h4>
+                
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci vel nisi sollicitudin convallis sed in velit. Vivamus gravida sagittis turpis, eget sagittis odio ullamcorper fringilla.</p>
+                
+        		<a href="http://validator.w3.org/check?uri=referer"><img style="border:0;width:88px;height:31px" src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" width="88" height="31" vspace="8" border="0" /></a>
+                
+    			<a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px"  src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" vspace="8" border="0" /></a>
+                
+            </div>
+            
+            <div class="section_w200">
+            
+            	<h4>Friends</h4>
+                
+                <ul class="footer_list_menu">
+                
+                	<li><a href="http://www.templatemo.com/page/1" target="_parent">Free Website Templates</a></li>
+                    <li><a href="http://www.flashmo.com/page/1" target="_blank">Flash Source Files</a></li>
+                  	<li><a href="http://www.webdesignmo.com/blog" target="_parent">Web Design Blog</a></li>
+                    <li><a href="http://www.koflash.com" target="_blank">Flash Web Gallery</a></li>
+                </ul>
+                
+          </div>
+            
+            <div class="section_w200">
+            
+                <div class="section_rss_twitter twitter">
+                        <a href="#">FOLLOW ME <span>on Twitter</span></a>
+                    </div>
+                    
+                    <div class="margin_bottom_20"></div>
+                    
+                    <div class="section_rss_twitter rss">
+                        <a href="#">SUBSCRIBE <span>RSS feed</span></a>
+                    </div>  
+                
+                </div>
+            
+        	<div class="cleaner_h20"></div>
+            
+            <div align="center">
+                 Copyright © 2048 <a href="#">Your Company Name</a> | 
+                 <a href="http://www.iwebsitetemplate.com" target="_parent">Website Templates</a> by 
+                 <a href="http://www.templatemo.com" target="_parent">Free CSS Templates</a>
+            </div>
+            
+    	</div> <!-- end of templatemo_footer -->
+    
+	<div class="cleaner"></div>
+</div> <!-- end of templatemo_footer_wrapper -->
+
+<div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div>
+    </div>
+    </form>
+</body>
+</html>

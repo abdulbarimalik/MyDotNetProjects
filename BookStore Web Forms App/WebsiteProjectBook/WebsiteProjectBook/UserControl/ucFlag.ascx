@@ -1,0 +1,3 @@
+﻿<div class="animatedFlagFlagdom" title="Pakistan" style="width:250px; height:250px"><script type="text/javascript" src="http://www.flagdom.com/flag-resources/animated-flag.js"></script></div><a href="http://www.flagdom.com" id="flagdomLink">Flagdom</a>
+				<!--<a href="http://www.templatemo.com" target="_parent"><img src="../images/Pakistan.gif" alt="ads" width="250" height="250"/></a>	-->
+                <a href="http://www.flagdom.com" id="A1"></a>

@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B596F3A6-29C2-46C6-9617-EA0BA99FFF01}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebsiteProjectBook</RootNamespace>
+    <AssemblyName>WebsiteProjectBook</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.60919.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\arrow-down.gif" />
+    <Content Include="images\arrow-right.gif" />
+    <Content Include="images\menu_divider.jpg" />
+    <Content Include="images\rss_icon.png" />
+    <Content Include="images\slider_left_control.png" />
+    <Content Include="images\slider_right_control.png" />
+    <Content Include="images\templatemo_200_200_ads.jpg" />
+    <Content Include="images\templatemo_content_bg.jpg" />
+    <Content Include="images\templatemo_content_bg_wrapper.jpg" />
+    <Content Include="images\templatemo_content_box_bottom.png" />
+    <Content Include="images\templatemo_content_box_middle.png" />
+    <Content Include="images\templatemo_content_box_top.png" />
+    <Content Include="images\templatemo_date_bg.png" />
+    <Content Include="images\templatemo_footer_top.jpg" />
+    <Content Include="images\templatemo_image_01.jpg" />
+    <Content Include="images\templatemo_image_02.jpg" />
+    <Content Include="images\templatemo_image_03.jpg" />
+    <Content Include="images\templatemo_image_04.jpg" />
+    <Content Include="images\templatemo_image_05.jpg" />
+    <Content Include="images\templatemo_image_06.jpg" />
+    <Content Include="images\templatemo_img_1.jpg" />
+    <Content Include="images\templatemo_img_2.jpg" />
+    <Content Include="images\templatemo_img_3.jpg" />
+    <Content Include="images\templatemo_logo.png" />
+    <Content Include="images\templatemo_top_panel_bg.jpg" />
+    <Content Include="images\templatemo_top_panel_bg_wrapper_inner.jpg" />
+    <Content Include="images\templatemo_top_panel_bg_wrapper_outer.jpg" />
+    <Content Include="images\twitter_icon.png" />
+    <Content Include="jquerycssmenu.css" />
+    <Content Include="js\animated-flag.js" />
+    <Content Include="js\jquery.min.1.2.6.js" />
+    <Content Include="js\jquery.min.1.3.2.js" />
+    <Content Include="js\jquerycssmenu.js" />
+    <Content Include="js\templatemo_image_fader.js" />
+    <Content Include="SimplePages\Default.aspx" />
+    <Content Include="SimplePages\DeleteAuthors.aspx" />
+    <Content Include="SimplePages\DeleteBooks.aspx" />
+    <Content Include="SimplePages\DeleteQuotations.aspx" />
+    <Content Include="SimplePages\DeleteTopic.aspx" />
+    <Content Include="SimplePages\EnterAuthors.aspx" />
+    <Content Include="SimplePages\EnterBooks.aspx" />
+    <Content Include="SimplePages\EnterQuotations.aspx" />
+    <Content Include="SimplePages\EnterTopics.aspx" />
+    <Content Include="SimplePages\Login.aspx" />
+    <Content Include="SimplePages\LogOut.aspx" />
+    <Content Include="SimplePages\MyProfile.aspx" />
+    <Content Include="SimplePages\ReportQuoteByAuthors.aspx" />
+    <Content Include="SimplePages\ReportTitleByAuthors.aspx" />
+    <Content Include="SimplePages\ReportTitleByTopics.aspx" />
+    <Content Include="SimplePages\SignUp.aspx" />
+    <Content Include="SimplePages\UpdateAuthor.aspx" />
+    <Content Include="SimplePages\UpdateBooks.aspx" />
+    <Content Include="SimplePages\UpdateQuotation.aspx" />
+    <Content Include="SimplePages\UpdateTopic.aspx" />
+    <Content Include="SimplePages\View Quotations.aspx" />
+    <Content Include="SimplePages\ViewAllUsers.aspx" />
+    <Content Include="SimplePages\ViewAuthor.aspx" />
+    <Content Include="SimplePages\ViewBooks.aspx" />
+    <Content Include="SimplePages\ViewTopics.aspx" />
+    <Content Include="templatemo_style.css" />
+    <Content Include="UserControl\ucFlag.ascx" />
+    <Content Include="UserControl\ucNews.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DB_Access.cs" />
+    <Compile Include="DB_Connect.cs" />
+    <Compile Include="MasterPages\Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDBDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDBDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimplePages\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\DeleteAuthors.aspx.cs">
+      <DependentUpon>DeleteAuthors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\DeleteAuthors.aspx.designer.cs">
+      <DependentUpon>DeleteAuthors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\DeleteBooks.aspx.cs">
+      <DependentUpon>DeleteBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\DeleteBooks.aspx.designer.cs">
+      <DependentUpon>DeleteBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\DeleteQuotations.aspx.cs">
+      <DependentUpon>DeleteQuotations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\DeleteQuotations.aspx.designer.cs">
+      <DependentUpon>DeleteQuotations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\DeleteTopic.aspx.cs">
+      <DependentUpon>DeleteTopic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\DeleteTopic.aspx.designer.cs">
+      <DependentUpon>DeleteTopic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\EnterAuthors.aspx.cs">
+      <DependentUpon>EnterAuthors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\EnterAuthors.aspx.designer.cs">
+      <DependentUpon>EnterAuthors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\EnterBooks.aspx.cs">
+      <DependentUpon>EnterBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\EnterBooks.aspx.designer.cs">
+      <DependentUpon>EnterBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\EnterQuotations.aspx.cs">
+      <DependentUpon>EnterQuotations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\EnterQuotations.aspx.designer.cs">
+      <DependentUpon>EnterQuotations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\EnterTopics.aspx.cs">
+      <DependentUpon>EnterTopics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\EnterTopics.aspx.designer.cs">
+      <DependentUpon>EnterTopics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\MyProfile.aspx.cs">
+      <DependentUpon>MyProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\MyProfile.aspx.designer.cs">
+      <DependentUpon>MyProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\Reporting.cs" />
+    <Compile Include="SimplePages\ReportQuoteByAuthors.aspx.cs">
+      <DependentUpon>ReportQuoteByAuthors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\ReportQuoteByAuthors.aspx.designer.cs">
+      <DependentUpon>ReportQuoteByAuthors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\ReportTitleByAuthors.aspx.cs">
+      <DependentUpon>ReportTitleByAuthors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\ReportTitleByAuthors.aspx.designer.cs">
+      <DependentUpon>ReportTitleByAuthors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\ReportTitleByTopics.aspx.cs">
+      <DependentUpon>ReportTitleByTopics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\ReportTitleByTopics.aspx.designer.cs">
+      <DependentUpon>ReportTitleByTopics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\UpdateAuthor.aspx.cs">
+      <DependentUpon>UpdateAuthor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\UpdateAuthor.aspx.designer.cs">
+      <DependentUpon>UpdateAuthor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\UpdateBooks.aspx.cs">
+      <DependentUpon>UpdateBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\UpdateBooks.aspx.designer.cs">
+      <DependentUpon>UpdateBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\UpdateQuotation.aspx.cs">
+      <DependentUpon>UpdateQuotation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\UpdateQuotation.aspx.designer.cs">
+      <DependentUpon>UpdateQuotation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\UpdateTopic.aspx.cs">
+      <DependentUpon>UpdateTopic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\UpdateTopic.aspx.designer.cs">
+      <DependentUpon>UpdateTopic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\View Quotations.aspx.cs">
+      <DependentUpon>View Quotations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\View Quotations.aspx.designer.cs">
+      <DependentUpon>View Quotations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\ViewAllUsers.aspx.cs">
+      <DependentUpon>ViewAllUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\ViewAllUsers.aspx.designer.cs">
+      <DependentUpon>ViewAllUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\ViewAuthor.aspx.cs">
+      <DependentUpon>ViewAuthor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\ViewAuthor.aspx.designer.cs">
+      <DependentUpon>ViewAuthor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\ViewBooks.aspx.cs">
+      <DependentUpon>ViewBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\ViewBooks.aspx.designer.cs">
+      <DependentUpon>ViewBooks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePages\ViewTopics.aspx.cs">
+      <DependentUpon>ViewTopics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimplePages\ViewTopics.aspx.designer.cs">
+      <DependentUpon>ViewTopics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ucFlag.ascx.cs">
+      <DependentUpon>ucFlag.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\ucFlag.ascx.designer.cs">
+      <DependentUpon>ucFlag.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ucNews.ascx.cs">
+      <DependentUpon>ucNews.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\ucNews.ascx.designer.cs">
+      <DependentUpon>ucNews.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\Site1.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SimplePages\Report2.rdlc" />
+    <EmbeddedResource Include="SimplePages\Report3.rdlc" />
+    <EmbeddedResource Include="SimplePages\Report4.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectDBDataSet.xsc">
+      <DependentUpon>ProjectDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectDBDataSet.xss">
+      <DependentUpon>ProjectDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDBDataSet2.xsc">
+      <DependentUpon>ProjectDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectDBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectDBDataSet2.xss">
+      <DependentUpon>ProjectDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDBDataSet3.xsc">
+      <DependentUpon>ProjectDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDBDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectDBDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectDBDataSet3.xss">
+      <DependentUpon>ProjectDBDataSet3.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52106</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

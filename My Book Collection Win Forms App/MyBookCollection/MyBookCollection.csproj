@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F2C97532-A022-4EC3-87B4-1D853FE4F136}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyBookCollection</RootNamespace>
+    <AssemblyName>MyBookCollection</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuthorForm.Designer.cs">
+      <DependentUpon>AuthorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Authors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authors.Designer.cs">
+      <DependentUpon>Authors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Books.Designer.cs">
+      <DependentUpon>Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_Access.cs" />
+    <Compile Include="DB_Connection.cs" />
+    <Compile Include="DeleteTopic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteTopic.Designer.cs">
+      <DependentUpon>DeleteTopic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Author.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Author.Designer.cs">
+      <DependentUpon>Delete_Author.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Books.Designer.cs">
+      <DependentUpon>Delete_Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Quote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Quote.Designer.cs">
+      <DependentUpon>Delete_Quote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnterBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnterBooks.Designer.cs">
+      <DependentUpon>EnterBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenuForm.Designer.cs">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageQuotations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageQuotations.Designer.cs">
+      <DependentUpon>ManageQuotations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherInformation.Designer.cs">
+      <DependentUpon>OtherInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviewReports.Designer.cs">
+      <DependentUpon>PreviewReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quotations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quotations.Designer.cs">
+      <DependentUpon>Quotations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteByAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuoteByAuthor.Designer.cs">
+      <DependentUpon>QuoteByAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportTitlesByTopic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportTitlesByTopic.Designer.cs">
+      <DependentUpon>ReportTitlesByTopic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportTittlesByAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportTittlesByAuthor.Designer.cs">
+      <DependentUpon>ReportTittlesByAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateQuotations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateQuotations.Designer.cs">
+      <DependentUpon>UpdateQuotations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateTopic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateTopic.Designer.cs">
+      <DependentUpon>UpdateTopic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewQuotations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewQuotations.Designer.cs">
+      <DependentUpon>ViewQuotations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewTopic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewTopic.Designer.cs">
+      <DependentUpon>ViewTopic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Topics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Topics.Designer.cs">
+      <DependentUpon>Topics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TopicsMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TopicsMenu.Designer.cs">
+      <DependentUpon>TopicsMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Author.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Author.Designer.cs">
+      <DependentUpon>Update_Author.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Books.Designer.cs">
+      <DependentUpon>Update_Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewBookDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewBookDB.Designer.cs">
+      <DependentUpon>ViewBookDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_Author_Database.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Author_Database.Designer.cs">
+      <DependentUpon>View_Author_Database.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AuthorForm.resx">
+      <DependentUpon>AuthorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Authors.resx">
+      <DependentUpon>Authors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Books.resx">
+      <DependentUpon>Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteTopic.resx">
+      <DependentUpon>DeleteTopic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Author.resx">
+      <DependentUpon>Delete_Author.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Books.resx">
+      <DependentUpon>Delete_Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Quote.resx">
+      <DependentUpon>Delete_Quote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnterBooks.resx">
+      <DependentUpon>EnterBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuForm.resx">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageQuotations.resx">
+      <DependentUpon>ManageQuotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherInformation.resx">
+      <DependentUpon>OtherInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewReports.resx">
+      <DependentUpon>PreviewReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Quotations.resx">
+      <DependentUpon>Quotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuoteByAuthor.resx">
+      <DependentUpon>QuoteByAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="ReportTitlesByTopic.resx">
+      <DependentUpon>ReportTitlesByTopic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportTittlesByAuthor.resx">
+      <DependentUpon>ReportTittlesByAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateQuotations.resx">
+      <DependentUpon>UpdateQuotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateTopic.resx">
+      <DependentUpon>UpdateTopic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewQuotations.resx">
+      <DependentUpon>ViewQuotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewTopic.resx">
+      <DependentUpon>ViewTopic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Topics.resx">
+      <DependentUpon>Topics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TopicsMenu.resx">
+      <DependentUpon>TopicsMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Author.resx">
+      <DependentUpon>Update_Author.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Books.resx">
+      <DependentUpon>Update_Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewBookDB.resx">
+      <DependentUpon>ViewBookDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Author_Database.resx">
+      <DependentUpon>View_Author_Database.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsc">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet3.xss">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
